@@ -1,4 +1,6 @@
 import React from "react";
+import myImg from "../MyComps/images/arch.png"
+
 
 function MyAboutUs() {
   return (
@@ -10,15 +12,25 @@ function MyAboutUs() {
           <p className="section-text">
           Welcome to my architecture portfolio! I am <b>Deekshitha Bhupathi</b>, a visionary architect with a relentless passion for creating extraordinary spaces that shape the way we live, work, and interact with the built environment.
           </p>
+       
+          <h3 className="h3" style={{ display: 'flex', alignItems: 'center' }}>
+  <ion-icon name="checkmark-circle" aria-hidden="true" style={{ marginRight: '5px' }} />
+  Design Approach
+</h3>
+
           <p className="section-text">
-          As an architect, I believe that every structure has the potential to be a work of art, an embodiment of innovation, and a catalyst for positive change. Through my designs, I strive to push the boundaries of convention, blending form and function to create spaces that inspire, engage, and leave a lasting impression.
-          </p>
-          <h3 className="h3">Design Approach</h3>
-          <p className="section-text">
-              My design approach is characterized by a balance between creativity and practicality. I embrace innovative thinking and seek to push the boundaries of traditional design concepts while ensuring that the resulting spaces are functional, efficient, and sustainable.              </p>
-              <p className="section-text">
-              Through a meticulous attention to detail and a focus on craftsmanship, I aim to create spaces that exude quality and timelessness. I value the use of natural materials, harmonious proportions, and thoughtful lighting to create atmospheres that are both inviting and awe-inspiring.              </p>
+              My design approach is characterized by a balance between creativity and practicality. I embrace innovative thinking and seek to push the boundaries of traditional design concepts while ensuring that the resulting spaces are functional, efficient, and sustainable.       
+            <br></br>  Through a meticulous attention to detail and a focus on craftsmanship, I aim to create spaces that exude quality and timelessness.            </p>
           
+            <h3 className="h3" style={{ display: 'flex', alignItems: 'center' }}>
+  <ion-icon name="checkmark-circle" aria-hidden="true" style={{ marginRight: '5px' }} />
+  Design Philosophy
+</h3>
+
+              <p className="section-text">
+          My design philosophy is rooted in the belief that architecture should respond to its context and purpose while embodying a sense of beauty and functionality. I approach each project as a unique opportunity to create something meaningful and enduring.
+        <br></br>
+         I believe that architecture is a language that communicates and resonates with people on a visceral level. It should evoke emotions, tell stories, and provide a sense of place.</p>
         </div>
 
         <div className="about-content">
@@ -27,12 +39,11 @@ function MyAboutUs() {
 
         
 <br></br><br></br>
-          <h3 className="h3">Design Philosophy</h3>
-          <p className="section-text">
-          My design philosophy is rooted in the belief that architecture should respond to its context and purpose while embodying a sense of beauty and functionality. I approach each project as a unique opportunity to create something meaningful and enduring.
-          </p>
-          <p >I believe that architecture is a language that communicates and resonates with people on a visceral level. It should evoke emotions, tell stories, and provide a sense of place. By carefully studying the site, understanding the cultural and historical context, and engaging with the local community, I strive to create designs that are deeply rooted in their surroundings..</p>
+          
+         <img src={myImg} alt="cccc" className="scroll-animation" style={{height:"310px",width:"460px", boxShadow:"5px 5px 20px 0px gray"}}></img>
+       
       <br></br><br></br> <p><i><b>Immerse yourself in my architectural portfolio and discover the essence of my design approach. Explore a collection of captivating projects that showcase my passion for creating remarkable spaces. Let the portfolio speak for itself as you witness the fusion of creativity and functionality. Step into a world where architecture tells its own story. Experience it firsthand by delving into my portfolio.</b></i></p>
+
         </div>
       </div>
     </section>

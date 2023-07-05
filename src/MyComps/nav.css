@@ -360,8 +360,8 @@
     margin-block-start: 20px;
   }
   
-  
-  
+
+ 
   
   
   /*-----------------------------------*\
@@ -377,10 +377,15 @@
     flex: 3;
     margin: 10px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #cdbba0;
     width: 10%;
-   
+    background: linear-gradient(150deg, #dbcab0 20%, #c0ae92 20%);
+
     position: relative;
+  }
+  .my-list {
+    list-style-type: disc;
+    margin-left: 20px;
   }
   
   .bx2,
@@ -388,7 +393,8 @@
     flex: 4;
     margin: 10px;
     padding: 20px;
-    background-color: #271e1e;
+    background-color: #e0d3ba;
+  
     width: 35%;
     position: relative;
   }
